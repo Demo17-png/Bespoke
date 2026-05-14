@@ -112,6 +112,7 @@ span {
    border-radius: 15px;
    width: 60%;
    height: 80%;
+   
 }
 .model {
     border-radius: 20px;
@@ -204,8 +205,9 @@ span {
     }
     .model {
         padding-bottom: 15px;
-        width: 150vw;
-        height: 100%;
     }
-
+.model img, .model4 img {
+   width: 100%;
+   height: auto;  
+}
 }
