@@ -204,6 +204,7 @@ span {
     }
     .model {
         padding-bottom: 15px;
+        width: 150vw;
         height: 100%;
     }
 
