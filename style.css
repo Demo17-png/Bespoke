@@ -87,7 +87,7 @@ span {
     justify-content: space-between;
     flex: 1;
     gap: 20px;
-    margin-top: 15px;
+    padding: 15px 0;
     background-color: rgba(239, 230, 242);
 }
 .banner img {
