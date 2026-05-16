@@ -231,4 +231,8 @@ span {
 button {
     font-size: clamp(1.7em, 5vw, 2.5em);
 }
+.ms img {
+        border-radius: 20px;
+        height: auto;
+    }
 }
