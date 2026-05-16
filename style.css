@@ -15,7 +15,7 @@ body {
     overflow-x: hidden; /* Prevent horizontal scroll due to potential overflows */
     -webkit-font-smoothing: antialiased; /* Better font rendering for macOS/iOS */
     -moz-osx-font-smoothing: grayscale; /* Better font rendering for macOS/iOS */
-    background-color: #fff;
+    background-color:  rgba(239, 230, 242);
 }
 .head {
     background-color: rgba(255, 233, 244);
@@ -159,6 +159,20 @@ span {
         transform: translateX(-50%);
       }
     }
+    button {
+        display: block;
+        margin: 10px auto;
+        border: 2px solid grey;
+        border-radius: 25px;
+        background-color:  rgba(203, 107, 230);
+        padding: 2px 10px;
+        color: #fff;
+        font-weight: 700;
+        font-size: clamp(1em, 3vw, 1.5em);
+    }
+    .ms img {
+        border-radius: 20px;
+    }
 /* For screens up to 768px wide */
 @media (max-width: 768px) {
     .service {
@@ -173,6 +187,9 @@ span {
 }
     .service {
         width: 30%;
+    }
+    .ms img {
+        width: 70%;
     }
 }
 
