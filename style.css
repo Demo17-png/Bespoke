@@ -167,11 +167,12 @@ span {
         background-color:  rgba(203, 107, 230);
         padding: 2px 10px;
         color: #fff;
-        font-weight: 700;
-        font-size: clamp(1.5em, 5vw, 2.5em);
+        font-weight: 500;
+        font-size: clamp(1.3em, 5vw, 2.2em);
     }
     .ms img {
         border-radius: 20px;
+        height: 80vh;
     }
 /* For screens up to 768px wide */
 @media (max-width: 768px) {
